@@ -1,0 +1,51 @@
+<html ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WhatsApp CRM</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css?v=2.01" />
+    <link rel="stylesheet" type="text/css" href="css/loading-bar.min.css?v=2.01" />
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=2.01" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css?v=2.01" />
+
+    <script type="text/javascript" src="js/jquery.js?v=2.01"></script>
+    <script type="text/javascript" src="js/angular.min.js?v=2.01"></script>
+    <script type="text/javascript" src="js/angular-sanitize.min.js?v=2.01"></script>
+    <script type="text/javascript" src="js/angular-ui-router.js?v=2.01"></script>
+
+    <script type="text/javascript" src="js/bootstrap.min.js?v=2.01"></script>
+    <script type="text/javascript" src="js/lodash.min.js?v=2.01"></script>
+    <script type="text/javascript" src="js/moment.min.js?v=2.01"></script>
+    <script type="text/javascript" src="js/angular-moment.min.js?v=2.01"></script>
+    <script type="text/javascript" src="js/async.js?v=2.01"></script>
+    <script type="text/javascript" src="js/custom.js?v=2.01"></script>
+
+    <script type="text/javascript" src="js/loading-bar.min.js?v=2.01"></script>
+    
+    
+    <script type="text/javascript" src="app/directives/customDirectives.js?v=2.01"></script>
+    
+
+    <script type="text/javascript" src="app/services/APIServices.js?v=2.01"></script>
+
+
+    <script type="text/javascript" src="app/home/home.js?v=2.01"></script>
+    <script type="text/javascript" src="app/home/homeCtrl.js?v=2.01"></script>   
+
+    <script type="text/javascript" src="app/app.js?v=2.01"></script>
+
+
+</head>
+
+<body ng-controller="appCtrl">
+
+    <div class="main" style="margin:auto">
+
+        <div ui-view autoscroll="false"></div>
+
+    </div>
+
+</body>
+
+</html>
